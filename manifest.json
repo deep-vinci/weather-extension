@@ -1,0 +1,11 @@
+{
+    "name": "Weather app",
+    "version": "1.0.0",
+    "description": "Weather data of Vadodara",
+    "manifest_version": 3,
+    "author": "deep-vinci",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Weather app"
+    }
+}
