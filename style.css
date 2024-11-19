@@ -1,0 +1,9 @@
+html {
+    width: 200px;
+}
+.weather-app {
+    display: inline;
+}
+.temp-of-place {
+    display: inline;
+}
