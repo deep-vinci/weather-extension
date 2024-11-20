@@ -17,6 +17,6 @@
 async function fetchData() {
     const res = await fetch("https://api.open-meteo.com/v1/forecast?latitude=22.3052&longitude=73.1972&current=temperature_2m&forecast_days=1");
     const record = await res.json();
-    document.querySelector(".temp-of-place").textContent = record.current.temperature_2m;
+    document.querySelector(".temp").textContent = `${record.current.temperature_2m}`;
 }
 fetchData();

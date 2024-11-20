@@ -1,9 +1,15 @@
 html {
-    width: 200px;
+    /* width: 200px; */
 }
 .weather-app {
-    display: inline;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
 }
-.temp-of-place {
-    display: inline;
+
+.temp {
+    
 }
